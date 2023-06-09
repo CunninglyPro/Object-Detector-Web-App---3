@@ -1,0 +1,59 @@
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#back {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    width: 80px;
+    height: 37px;
+    border-radius: 5px;
+    float: right;
+    right: 10px;
+}
+
+#back:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+#status {
+    font-size: 16px;
+}
+
+#cocossd {
+    font-size: 16px;
+}
+
+canvas {
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 435px;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+    from {
+        box-shadow: 2px 2px 15px white;
+    }
+
+    to {
+        box-shadow: 2px 2px 15px black;
+    }
+}

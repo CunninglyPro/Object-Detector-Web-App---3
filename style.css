@@ -1,0 +1,27 @@
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.images {
+    margin-top: 30px;
+}
+
+a {
+    display: list-item;
+    margin: 20px;
+    padding: 2px;
+    background-color: white;
+    width: 350px;
+    height: 35px;
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
